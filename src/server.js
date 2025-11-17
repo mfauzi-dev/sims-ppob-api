@@ -17,7 +17,7 @@ dotenv.config();
         // await Transaction.sync({ alter: true });
         // logger.info("Database synced successfully.");
 
-        const PORT = process.env.APP_PORT || 5000;
+        const PORT = process.env.APP_PORT || 3000;
         app.listen(PORT, () => {
             logger.info(`Server is running on http://localhost:${PORT}`);
         });
