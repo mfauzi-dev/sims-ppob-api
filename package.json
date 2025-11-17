@@ -4,6 +4,7 @@
     "description": "API Contract SIMS PPOB",
     "main": "index.js",
     "scripts": {
+        "start": "node ./src/server.js",
         "dev": "nodemon ./src/server.js"
     },
     "author": "Mohammad Fauzi",
