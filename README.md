@@ -39,25 +39,31 @@ git clone https://github.com/mfauzi-dev/sims-ppob-api
     npm install
     ```
 
-4. **Buat file .env berdasarkan .env.example**
+4. **Buat folder uploads untuk menyimpan file yang di-upload**
+
+    ```bash
+    mkdir uploads
+    ```
+
+5. **Buat file .env berdasarkan .env.example**
 
     ```bash
     cp .env.example .env
     ```
 
-5. **Jalankan project**
+6. **Jalankan project**
 
     ```bash
     npm run dev
     ```
 
-6. **Jalankan seeder banner**
+7. **Jalankan seeder banner**
 
     ```bash
     node src/seeders/bannerSeeder.js
     ```
 
-7. **Jalankan seeder service**
+8. **Jalankan seeder service**
     ```bash
     node src/seeders/serviceSeeder.js
     ```
